@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #282c34;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box {
+  margin-left: 90px;
+  margin-top: 40px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  background-color: gray;
+  opacity: 1;
+width: 355.41px;
+height: 181px;
+top: 140px;
+left: 90px;
+gap: 0px;
+border-radius: 15px;
+opacity: 0px;
+
+}
+.box2 {
+  margin-top: 40px;
+  margin-left: 10px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  background-color: gray;
+width: 355.41px;
+height: 181px;
+top: 140px;
+left: 494.59px;
+gap: 0px;
+border-radius: 15px;
+opacity: 0px;
+
+
+}
+
+.outerbox {
+  position: relative;
+  margin-top: 94px;
+  background: #626262;  ;
+  display: flex;
+  width: 1211px;
+  height: 269px;
+  top: 94px;
+  gap: 10px;
+  border-radius: 10px;
+  opacity: 1;
+  margin-top: 10px;
+
+}
+
+.inner-container {
+  display: flex;
+  width: 100%;
+}
+.heading {
+font-family: Ubuntu;
+font-size: 30px;
+font-weight: 400;
+line-height: 34.47px;
+text-align: left;
+color: white;
+margin-left: 15px;
+
+}
+.addbutton {
+font-family: Ubuntu;
+
+font-weight: 400;
+line-height: 34.47px;
+text-align: left;
+background: linear-gradient(90deg, #B5DC52 0%, #89E148 100%);
+border-radius: 15px;
+color: white;
+}
+.addexpensebutton {
+
+width: 167.65px;
+height: 38px;
+top: 245px;
+left: 588.47px;
+gap: 0px;
+border-radius: 15px;
+opacity: 0px;
+background: linear-gradient(90deg, #FF9595 0%, #FF4747 80%, #FF3838 100%);
+
+}
+.list {
+  display: flex;
+width: 1185px;
+height: 345.03px;
+margin-top:5px ;
+margin-left: 22px;
+gap: 0px;
+border: 10px;
+opacity: 0px;
+border-radius: 10px;
+background-color: white;
+}
+.two {
+ display: flex;
+ margin-top: 120px;
+ position: relative;
+}
+.box3 {
+  width: 738.33px;
+  left: 32px;
+  gap: 0px;
+  margin-left: 10px;
+  border-radius: 10px;
+  opacity: 0px;
+  height: 347px;
+  background-color:white;
+
+}
+.box4 {
+width: 417px;
+height: 347px;
+left: 800px;
+gap: 0px;
+opacity: 0px;
+background-color: white;
+border-radius: 10px;
+margin-left: 15px;
+border-color: #282c34;
+border-style: solid;
+}
